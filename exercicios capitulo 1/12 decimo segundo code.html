@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com html5</title>
+</head>
+
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <h2>Este video esta inserido no meu proprio servidor</h2>
+    <p>Video mp4</p>
+    <!--ESSE SAO OS TIPOS DE VIDEOS MAS E RECOMENDADO USAR TODOS OS TIPOS DE UMA-->
+    <video src="midia/video.mp4" width="500" controls></video>
+    <p>Video m4v</p>
+    <video src="midia/Video3.mp4" width="500" controls></video>
+    <p>Video webm</p>
+    <video src="midia/Video2.webm" width="500" controls></video>
+    <p>desse jeito vai tentar rodar sempre o que for compativel</p>
+    <!--PARA USAR TODOS DE UMA VEZ INDEPENDENTE DO NAVEGADOR E ASSIM E A ORDEM TEM INFLUENCIA-->
+    <video width="560" poster="fotos/paisagens 650.jpeg" controls autoplay loop></video>
+    <source src="midia/video.mp4" type="video/mp4">
+    <source src="midia/Video2.webm" type="video/webm">
+    <p>Seu navegador nao tem compatibilidade com video</p>
+
+    </video>
+    <h1> Inserindo videos do Youtube</h1>
+    <!-- PARA INSERIR UM VIDEO DO YOUTUBE E PRECISO USAR O IFRAME E PEGAR O LINK DE COMPARTILHAMENTO DO VIDEO E COLOCAR NO SRC DO IFRAME -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jPWsBuiy1rE?si=n7QEVq-2SQ6LCo2C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+
+</html>

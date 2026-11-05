@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: antiquewhite;
+        }
+        
+        header {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        main {
+            padding: 10px;
+            margin: 10px;
+            background-color: aquamarine;
+        }
+        
+        footer {
+            background-color: #f0f0f0;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            background-color: lightblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        article {
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        article>aside {
+            background-color: lightyellow;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Assuntos</h2>
+            <p>Conteúdo sobre os assuntos principais.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <aside>
+                    <h3>Notícias Relacionadas</h3>
+                    <ul>
+                        <li><a href="#">Notícia 2</a></li>
+                        <li><a href="#">Notícia 3</a></li>
+                    </ul>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p> 2023 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

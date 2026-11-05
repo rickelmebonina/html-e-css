@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body {
+    background-color: lightslategray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: rebeccapurple;
+}
+
+h1#principal {
+    color: darkred;
+    font-size: 36px;
+    text-align: center;
+    background-color: white;
+}
+
+.basico {
+    color: darkgreen;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.intermediario {
+    color: darkblue;
+    font-size: 24px;
+    text-decoration: italic;
+}
+
+.avançado {
+    color: darkred;
+    font-size: 24px;
+    text-decoration: bold;
+}
+
+.destaque {
+    font-weight: bold;
+    background-color: yellow;
+}

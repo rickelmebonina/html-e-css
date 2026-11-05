@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(156, 156, 156);
+        }
+        
+        header {
+            background-color: #dfdfdf;
+            padding: 10px;
+            margin: 10px;
+            color: rgb(0, 0, 0);
+            border-radius: 10px;
+        }
+        
+        main {
+            padding: 10px;
+            margin: 10px;
+            background-color: #dfdfdf;
+            color: rgb(0, 0, 0);
+            border-radius: 10px;
+        }
+        
+        footer {
+            background-color: #272727;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            background-color: rgb(44, 44, 44);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        
+        article {
+            background-color: rgb(100, 100, 100);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        
+        article>aside {
+            background-color: rgb(46, 46, 46);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        
+        nav {
+            background-color: rgb(255, 255, 255);
+            padding: 5px;
+            margin-top: 10px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.386);
+            border-radius: 10px;
+        }
+        
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        footer p {
+            margin: 0px;
+        }
+        
+        #noticias {
+            color: rgb(255, 255, 255);
+        }
+        
+        div#bola {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 0, 0);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Assuntos</h2>
+            <p>Conteúdo sobre os assuntos principais.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <aside>
+                    <h3>Notícias Relacionadas</h3>
+                    <ul>
+                        <li><a href="#">Notícia 2</a></li>
+                        <li><a href="#">Notícia 3</a></li>
+                    </ul>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p> 2023 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+
+</html>
